@@ -1,0 +1,1626 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+a {
+    outline: 0;
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+:focus {
+    outline: 0
+}
+
+ins {
+    text-decoration: none
+}
+
+del {
+    text-decoration: line-through
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.clear {
+    display: block;
+    clear: both;
+    width: 1px;
+    height: 0.001%;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    text-align: center;
+    font: 14px Tahoma, sans-serif;
+    color: #2f2f2f;
+    background: #fff;
+}
+
+.fasha {
+    height: 35px;
+    background: url(../images/fasha_bg.html) repeat-x top;
+    display: none;
+    position: relative;
+    padding-left: 31px;
+}
+
+.fasha .message {
+    line-height: 35px;
+    font-size: 16px;
+    font-family: "Trebuchet MS", sans-serif;
+    float: left;
+    padding-left: 10px;
+    color: #2F2F2F;
+}
+
+.fasha .message:hover {
+    text-decoration: underline;
+}
+
+.fasha .close {
+    width: 34px;
+    height: 33px;
+    background: url(../images/fasha_close.html) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.fasha .moreinfo {
+    cursor: pointer;
+    color: #000;
+}
+
+.fasha#chromeExt .logo {
+    background: url(../images/chrome_logo.html) no-repeat;
+    float: left;
+    width: 32px;
+    height: 31px;
+    margin-top: 2px;
+}
+
+.fasha#chromeExt .right {
+    line-height: 35px;
+    color: #fff;
+    padding-right: 48px;
+}
+
+.fasha#chromeExt .addon {
+    background: url(../images/abv_addon.html) no-repeat left top;
+    padding-left: 35px;
+    display: inline-block;
+}
+
+.fasha#chromeExt .addon:hover {
+    background-position: left bottom;
+}
+
+.fasha#chromeExt .right a {
+    color: #1e930c;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.fasha#chromeExt .right a:hover {
+    text-decoration: underline;
+}
+
+.fasha#explorerAddfav .logo {
+    background: url(../images/explorer_logo.html) no-repeat;
+    float: left;
+    width: 34px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+.fasha#ffExt .logo {
+    background: url(../images/firefox_logo.html) no-repeat;
+    float: left;
+    width: 31px;
+    height: 29px;
+    margin-top: 2px;
+}
+
+#chromeExt .right a:hover {
+    text-decoration: underline;
+}
+
+#abv-Logo {
+    background: rgba(0, 0, 0, 0) url("../../../img.abv.bg/gwt-Mail/images/basic/sprite.png") no-repeat scroll 0 0;
+    border: 0 none;
+    display: block;
+    float: left;
+    height: 27px;
+    margin: 4px 8px 0 0;
+    padding: 0;
+    width: 25px;
+}
+
+#toplinks {
+    height: 34px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+#toplinks a {
+    color: #1e930c;
+    text-decoration: none;
+    line-height: 34px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#toplinks span.right {
+    color: #d4d0c8;
+    margin-left: -12px;
+    margin-top: 7px;
+    padding-right: 8px;
+}
+
+#toplinks a:hover {
+    text-decoration: underline;
+}
+
+#toplinks .left strong {
+    color: #000;
+}
+
+#toplinks .left {
+    padding-left: 15px;
+    color: #d4d0c8;
+}
+
+#toplinks .right {
+    padding-right: 20px;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 36px 0 32px 0;
+    text-align: center;
+    min-width: 980px;
+}
+
+#footerInner {
+    width: 968px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 13px;
+    color: #bcbcbc;
+    text-align: left;
+}
+
+#footerInner ul {
+    float: left;
+}
+
+#footerInner ul li {
+    float: left;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footerInner ul li span {
+    color: #000;
+}
+
+#footerInner .separator {
+    width: 1px;
+    height: 60px;
+    float: left;
+    background: #d0d0d0;
+}
+
+#footerInner a {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+#footerInner a:hover {
+    text-decoration: underline;
+}
+
+#footerInner .corpLinks {
+    padding-left: 19px;
+    float: left;
+}
+
+#footerInner .corpLinks p {
+    color: #000;
+}
+
+#siteContent {
+    width: 968px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+    padding: 0 10px;
+    padding-bottom: 60px;
+}
+
+#footerInner ul li p {
+    padding-top: 10px;
+    line-height: 15px;
+}
+
+#mainHeader h1 {
+    width: 163px;
+    height: 60px;
+    background: url(../images/spriteAbv.html) no-repeat 0px 0px;
+    float: left;
+    margin: 17px 0 0 1px;
+    text-indent: -8000px;
+}
+
+#mainHeader h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#loginForm {
+    width: 615px;
+    padding-left: 30px;
+    height: 250px;
+    background: #b8e6fd;
+    clear: left;
+    float: left;
+    font-size: 11px;
+    position: relative;
+}
+
+#loginForm .textField {
+    width: 300px;
+    height: 27px;
+    padding-left: 7px;
+    line-height: 27px;
+    font-size: 13px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #b9b9b9;
+    margin-bottom: 11px;
+}
+
+#loginForm .textField#password {
+    margin-bottom: 15px;
+}
+
+.focus {
+    background-color: #fcffdf !important;
+}
+
+#loginForm a {
+    color: #1e930c;
+    text-decoration: none;
+}
+
+#loginForm label {
+    height: 12px;
+    line-height: 12px;
+    float: left;
+    padding-bottom: 2px;
+    font-size: 11px;
+    color: #2f2f2f;
+    padding-left: 2px;
+}
+
+#loginForm a:hover {
+    text-decoration: underline;
+}
+
+#loginForm strong {
+    font-size: 12px;
+}
+
+#loginForm .sepLine {
+    height: 1px;
+    background: #b9b9b9;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    font-size: 0;
+    line-height: 0;
+}
+
+#loginForm #promoZone {
+    width: 305px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#loginForm #promoZone a {
+    width: 305px;
+    height: 250px;
+    display: block;
+}
+
+#rsHolder {
+    position: relative;
+    height: 0px;
+    float: left;
+    width: 968px;
+    display: none;
+}
+
+#resetSettings {
+    font-weight: bold;
+    font-size: 12px;
+    color: #1e930c;
+    position: absolute;
+    line-height: 12px;
+    top: 19px;
+    right: 24px;
+    cursor: pointer;
+}
+
+#resetSettings:hover {
+    text-decoration: none;
+}
+
+#rsHolder .close {
+    width: 11px;
+    cursor: pointer;
+    height: 10px;
+    background: url(../images/spriteAbv.html) no-repeat right -325px;
+    float: left;
+    position: absolute;
+    top: 21px;
+    right: 1px;
+}
+
+
+/*#password{display:none;}*/
+
+#loginBut {
+    background: #1e930c none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font: bold 12px/29px Arial;
+    height: 30px;
+    float: left;
+    margin-right: 15px;
+    width: 99px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+#loginBut:active {
+    line-height: 31px;
+    padding: 0 14px 0 16px;
+}
+
+
+/*#loginBut{width:99px;height:30px;background:url(../images/spriteAbv.png) no-repeat 0px -60px;border:0;cursor:pointer;float:left;margin-right:15px;}
+#loginBut:hover{background:url(../images/spriteAbv.png) no-repeat -320px -30px;}*/
+
+#leftSide {
+    width: 310px;
+    float: left;
+}
+
+#lostPasswordLink {
+    font-size: 11px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+h2 {
+    height: 58px;
+    line-height: 54px;
+    font-size: 21px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-weight: normal
+}
+
+#banner_300x250 {
+    float: right;
+}
+
+#mainHeader {
+    padding-left: 30px;
+    float: left;
+    height: 102px;
+}
+
+#rowAdv {
+    height: 14px;
+    text-align: right;
+    clear: both;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666;
+    line-height: 14px;
+}
+
+#searchForm {
+    float: left;
+    margin: 42px 0 0 100px;
+    display: inline
+}
+
+#searchForm #powGoogle {
+    width: 138px;
+    height: 28px;
+    background: #fff url(../images/spriteAbv.html) no-repeat -163px 0px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+}
+
+#searchForm .defaultValue {
+    width: 285px;
+    height: 26px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-right: 0;
+    float: left;
+    text-indent: 7px;
+    line-height: 26px;
+    color: #2f2f2f;
+    font-size: 11px;
+}
+
+#searchForm .searchButton,
+#citySearch .searchButton {
+    width: 80px;
+    height: 30px;
+    background: url(../images/spriteAbv.html) no-repeat -163px -28px;
+    float: left;
+    cursor: pointer;
+}
+
+#searchForm .searchButton:hover,
+#citySearch .searchButton:hover {
+    background: url(../images/spriteAbv.html) no-repeat -320px -0px;
+}
+
+header #mobileVersion {
+    width: 52px;
+    color: #000;
+    line-height: 12px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    height: 27px;
+    padding-top: 3px;
+    background: url(../images/spriteAbv.html) no-repeat -243px -28px;
+    display: block;
+    float: left;
+    margin: 42px 0 0 53px;
+}
+
+header #mobileVersion:hover {
+    text-decoration: underline;
+}
+
+#blocks {
+    padding-top: 40px;
+}
+
+section {
+    width: 465px;
+    line-height: 0;
+    float: left;
+}
+
+section.smallpad {
+    padding-bottom: 31px;
+}
+
+.column {
+    width: 465px;
+    min-height: 800px;
+}
+
+.block {}
+
+.ui-sortable-placeholder {
+    border: 1px dotted black;
+    visibility: visible !important;
+    height: 220px !important;
+    margin-bottom: 40px;
+    background: #f1f1f1;
+}
+
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+section h1,
+section h1 a {
+    float: left;
+}
+
+section h1 a,
+section h1 span {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    display: block;
+    color: #000;
+    font-size: 21px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+section a.siteLink {
+    color: #858585;
+    font-size: 12px;
+    margin-left: 7px;
+    float: left;
+    text-decoration: none;
+    height: 40px;
+    line-height: 47px;
+    overflow: hidden;
+}
+
+section a.siteLink:hover {
+    text-decoration: underline;
+}
+
+section a.lastNews {
+    color: #1e930c;
+    font-size: 11px;
+    float: right;
+    text-decoration: none;
+    height: 40px;
+    line-height: 47px;
+    overflow: hidden;
+}
+
+section a.lastNews:hover {
+    text-decoration: underline;
+}
+
+section header {
+    border-bottom: 1px solid #e0e0e0;
+    width: 465px;
+    padding-left: 0;
+    position: relative;
+}
+
+section header .targetholder {
+    height: 40px;
+    cursor: move;
+    position: absolute;
+    top: 0;
+}
+
+section header .targetholder.small {
+    width: 240px;
+    left: 130px;
+}
+
+section header .targetholder.medium {
+    width: 310px;
+    right: 0px;
+}
+
+section header .targetholder.large {
+    width: 360px;
+    right: 0px;
+}
+
+section header .targetholder.pari {
+    width: 332px;
+    right: 0px;
+}
+
+section header .targetholder.astro {
+    width: 240px;
+    right: 0px;
+}
+
+section header.noborder {
+    border-bottom: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+#newsImageHolder,
+#sportImageHolder,
+#ednaImageHolder {
+    width: 260px;
+    float: left;
+    background: url(../images/loader.html) no-repeat 50% 50%;
+    position: relative;
+}
+
+#newsHolder,
+#sportHolder,
+#ednaHolder {
+    border-bottom: 1px solid #e0e0e0;
+    height: 180px;
+}
+
+.imageCaption {
+    width: 260px;
+    background: url(../images/spriteAbv.html) no-repeat 0px -185px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.imageCaption a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 16px;
+    padding: 10px 10px 7px 10px;
+    margin-top: 7px;
+    float: left;
+    display: block;
+    font-weight: bold;
+}
+
+.imageCaption a:hover {
+    text-decoration: underline;
+}
+
+#newsImageHolder .image,
+#sportImageHolder .image,
+#ednaImageHolder .image {
+    width: 260px;
+    height: 180px;
+    float: left;
+    font-size: 0;
+    text-indent: -33333px;
+}
+
+.newsLinks,
+.sportLinks,
+.ednaLinks {
+    width: 197px;
+    padding-left: 8px;
+    height: 178px;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+}
+
+.newsLinks a,
+.sportLinks a,
+.ednaLinks a {
+    font-size: 13px;
+    outline: 0;
+    padding-bottom: 11px;
+    height: 25px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    color: #2f2f2f;
+    line-height: 17px;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.newsLinks a:hover,
+.sportLinks a:hover,
+.ednaLinks a:hover {
+    text-decoration: underline;
+}
+
+.newsLinks a.selected,
+.sportLinks a.selected,
+.ednaLinks a.selected {
+    background: url(../images/spriteAbv.html) no-repeat -134px -64px;
+}
+
+.sportLinks a:first-child+a+a+a {
+    visibility: hidden;
+}
+
+
+/* .newsLinks a:first-child + a + a + a ,
+.ednaLinks a:first-child + a + a + a { visibility: hidden; } */
+
+.slideShow {
+    width: 465px;
+    height: 180px;
+    background: #f0f0f0;
+}
+
+.slideShow .slide {
+    width: 465px;
+    height: 180px;
+}
+
+.slideShow .slide .prev,
+.slideShow .slide .next {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    cursor: pointer;
+    top: 129px;
+}
+
+.slideShow .slide .prev {
+    left: 0;
+    background: url(../images/spriteAbv.html) no-repeat -172px -131px;
+}
+
+.slideShow .slide .prev:hover {
+    left: 0;
+    background: url(../images/spriteAbv.html) no-repeat -214px -131px;
+}
+
+.slideShow .slide .next {
+    right: 0;
+    background: url(../images/spriteAbv.html) no-repeat -88px -131px;
+}
+
+.slideShow .slide .next:hover {
+    right: 0;
+    background: url(../images/spriteAbv.html) no-repeat -130px -131px;
+}
+
+.newsCaption {
+    font-size: 15px;
+    width: 185px;
+    floaT: left;
+    padding: 20px 10px 0 10px;
+    float: left;
+    line-height: 16px;
+}
+
+.newsCaption.vic {
+    width: 414px;
+    color: #2f2f2f;
+    font-size: 12px;
+    height: 87px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    padding-left: 26px;
+    padding-right: 5px;
+}
+
+.newsCaption a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.newsCaption a:hover {
+    text-decoration: underline;
+}
+
+.newsCat {
+    display: block;
+    font-size: 11px;
+    line-height: 11px;
+    color: #858585;
+    position: absolute;
+    top: 5px;
+    left: 12px
+}
+
+.linkCat {
+    display: none;
+}
+
+.abv-vic.linkCat {
+    float: right;
+    font-size: 11px;
+    color: #1e930c;
+    padding: 11px;
+    text-decoration: none;
+    margin-bottom: -15px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.abv-vic.newsCat {
+    width: 95%;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 8px;
+}
+
+#clock {
+    float: left;
+    width: 127px;
+    height: 146px
+}
+
+#clockCanvas {
+    margin: 34px 0 0 15px;
+    display: block;
+}
+
+#dayInfo {
+    width: 184px;
+    text-align: center;
+    float: left;
+    padding-top: 34px;
+    font-size: 14px;
+    font-size: 12px
+}
+
+#dayInfo .day {
+    font-family: Georgia, serif;
+    font-size: 56px;
+    height: 91px;
+    line-height: 91px;
+}
+
+#dayInfo .monthyear {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+#dateTime {
+    line-height: 0;
+    height: 180px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+    position: relative;
+}
+
+#calendar {
+    padding-top: 27px;
+    width: 154px;
+    float: left;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#dayrow {
+    background: #f0f0f0;
+    height: 15px;
+    line-height: 15px;
+    width: 146px;
+}
+
+#dayrow .cell {
+    width: 18px;
+    padding-left: 4px;
+    font-size: 11px;
+    float: left;
+    color: #2f2f2f;
+}
+
+#dayrow .cell.last {
+    width: 10px;
+}
+
+#days {
+    padding-top: 15px;
+    position: relative;
+    left: -4px;
+}
+
+#days .cell {
+    width: 22px;
+    padding-left: 0px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #2f2f2f;
+    float: left;
+    padding-bottom: 3px;
+    height: 14px;
+    text-align: center;
+}
+
+#calendar .weekend {
+    color: #858585;
+}
+
+#days .cell.cday {
+    background: url(../images/spriteAbv.html) no-repeat -99px -61px;
+    color: #fff;
+}
+
+#pariteniContent {
+    border-bottom: 1px solid #e0e0e0;
+    height: 178px;
+    background: #fff;
+}
+
+#pariteniLinks {
+    width: 215px;
+    float: left;
+}
+
+#pariteniLinks a {
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    max-height: 43px;
+    width: 200px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    color: #2f2f2f;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+#pariteniLinks a:hover {
+    text-decoration: underline;
+    background: url(../images/spriteAbv.html) no-repeat -134px -66px;
+}
+
+#currency {
+    width: 250px;
+    height: 178px;
+    background: #f0f0f0;
+    float: right;
+}
+
+#currency .toprow {
+    line-height: 40px;
+    padding-left: 9px;
+    font-size: 12px;
+}
+
+#currency .toprow a {
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+#currency .toprow a:hover {
+    text-decoration: underline;
+}
+
+#currency .toprow time {
+    color: #858585;
+}
+
+#currency .table {
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
+    color: #858585;
+}
+
+#currency .table .captions {
+    height: 21px;
+    line-height: 21px;
+    background: #fff;
+    padding-left: 8px;
+}
+
+#currency .table .captions div,
+#currency .table .currencyrow div {
+    width: 87px;
+    float: left;
+}
+
+#currency .table .captions div.last,
+#currency .table .currencyrow div.last {
+    width: 75px;
+    margin-left: 5px;
+}
+
+#currency .table .captions div.first,
+#currency .table .currencyrow div.first {
+    width: 65px;
+}
+
+#currency .table .currencyrow {
+    height: 29px;
+    line-height: 29px;
+    padding-left: 8px;
+}
+
+#currency .table .currencyrow u {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+#currency .table .currencyrow div.up {
+    background: url(../images/spriteAbv.html) no-repeat 0 -160px;
+}
+
+#currency .table .currencyrow div.down {
+    background: url(../images/spriteAbv.html) no-repeat 0 -129px;
+}
+
+.info {
+    height: 27px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #f0f0f0;
+    line-height: 27px;
+    font-size: 14px;
+}
+
+.info .left {
+    padding-left: 24px;
+    background: url(../images/spriteAbv.html) no-repeat -5px -296px;
+    line-height: 27px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.info .left span {
+    font-weight: normal;
+}
+
+.info .left.selected {
+    background: url(../images/spriteAbv.html) no-repeat -2px -90px;
+}
+
+.info .left div {
+    display: inline;
+}
+
+.info .left span {
+    color: #858585;
+    font-size: 12px;
+}
+
+.info .right {
+    font-size: 11px;
+    color: #1e930c;
+    padding-right: 9px;
+    text-decoration: none;
+}
+
+.info .right:hover {
+    text-decoration: underline;
+}
+
+#sinoptikContent {
+    border-bottom: 1px solid #e0e0e0;
+    width: 465px;
+    min-height: 180px;
+}
+
+#sLoader {
+    width: 465px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff url(../images/loader.html) no-repeat 50% 60px;
+}
+
+#sLoader.hidden {
+    display: none
+}
+
+#sinoptikContent .infocell {
+    font-size: 13px;
+    float: left;
+    margin-top: 10px;
+    height: 131px;
+    background: #fff;
+    overflow: hidden;
+    width: 119px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#sinoptikContent .infocell.first {
+    border-right: 1px solid #e0e0e0;
+    width: 211px;
+    text-align: left;
+}
+
+#sinoptikContent .infocell.last {
+    border-left: 1px solid #e0e0e0;
+}
+
+#sinoptikContent .infocell.first .time {
+    padding-left: 10px;
+    ;
+}
+
+#sinoptikContent .infocell .time {
+    font-size: 11px;
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    margin-top: -7px
+}
+
+#sinoptikContent .infocell.first .image {
+    float: left;
+    width: 106px;
+    height: 120px;
+}
+
+#sinoptikContent .infocell .image {
+    float: none;
+    height: 50px;
+    font-size: 0;
+    line-height: 0;
+}
+
+#sinoptikContent .infocell.first .digits {
+    width: 104px;
+    float: left;
+    text-align: center;
+}
+
+#sinoptikContent .infocell.first .digits .gradus {
+    font-size: 36px;
+    font-family: Georgia, serif;
+    line-height: 50px;
+}
+
+#sinoptikContent .infocell .digits .smallgradus {
+    font-size: 12px;
+    color: #858585;
+    line-height: 35px;
+}
+
+#sinoptikContent .infocell .digits .smallgradus strong {
+    font-weight: normal;
+    color: #858585;
+}
+
+#sinoptikContent .infocell .digits .smallgradus span {
+    font-family: Georgia, serif;
+    line-height: 16px;
+    font-size: 16px;
+    color: #2f2f2f;
+}
+
+#sinoptikContent .infocell .digits .smallgradus span.grey {
+    color: #858585;
+}
+
+#sinoptikContent .infocell .forecast {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+#astro {
+    /*background:#fff url(../images/loader.gif) no-repeat 50% 50%;width:465px;height:207px;display:block;float:left;*/
+}
+
+#astroContent .loader,
+#infoHolder {
+    width: 465px;
+    height: 150px;
+    position: relative;
+    float: left;
+    background: #fff;
+}
+
+#infoHolder {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#astroContent .loader {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    background: #fff url(../images/loader.html) no-repeat 50% 50%;
+}
+
+#astroContent .image {
+    width: 136px;
+    float: left;
+    height: 150px;
+    display: block;
+}
+
+#astroContent p {
+    font-size: 13px;
+    float: left;
+    height: 131px;
+    margin: 5px 0;
+    overflow: auto;
+    line-height: 16px;
+    overflow: auto;
+    line-height: 16px;
+    width: 320px;
+    padding-top: 10px;
+    background: #fff;
+}
+
+.infoMore {
+    width: 465px;
+    background: #e0e0e0;
+    float: left;
+    display: none;
+}
+
+.infoMore ul li {
+    float: left;
+    width: 85px;
+    padding-left: 31px;
+    line-height: 25px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.infoMore ul li:hover {
+    text-decoration: underline;
+}
+
+.infoMore ul li.selected {
+    font-weight: bold;
+}
+
+.infoMore ul {
+    padding: 7px 0;
+    float: left;
+}
+
+#citySearch {
+    height: 30px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 31px;
+    display: inline;
+    margin-bottom: 8px;
+}
+
+#citySearch #lHolder {
+    width: 1px;
+    height: 1px;
+    float: left;
+    position: relative;
+}
+
+#citySearch .loader {
+    background: url(../images/loader_s.html) no-repeat 287px 17px;
+    width: 468px;
+    height: 50px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+#citySearch .text {
+    width: 304px;
+    height: 26px;
+    line-height: 27px;
+    color: #2F2F2F;
+    padding-left: 7px;
+    float: left;
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    border-right: 0;
+    font-size: 11px;
+}
+
+#searchResults {
+    margin-left: 31px;
+    float: left;
+    padding: 1px 0 10px;
+    line-height: 20px;
+    display: none;
+    z-index: 10000000;
+}
+
+#searchResults .caption {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#searchResults span {
+    color: #858585;
+}
+
+#searchResults span.cityChoose {
+    color: #2f2f2f;
+}
+
+#searchResults span.cityChoose:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sinoptikLinkHolder {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 1px;
+}
+
+#sinoptikLink,
+#sinoptikLoader,
+#sinoptikLinkToday,
+#sinoptikLinkTomorrow {
+    width: 465px;
+    height: 150px;
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sinoptikLoader {
+    background: #fff url(../images/loader.html) no-repeat 50% 50%;
+    display: none;
+}
+
+#sinoptikLink {
+    width: 217px;
+}
+
+#sinoptikLinkToday,
+#sinoptikLinkTomorrow {
+    width: 121px;
+}
+
+#sinoptikLinkToday {
+    left: 217px;
+}
+
+#sinoptikLinkTomorrow {
+    left: 338px;
+}
+
+.DirectionsControl .next {
+    position: absolute;
+    border: 0;
+    top: -61px;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    background: url(../images/spriteAbv.html) no-repeat -88px -131px;
+}
+
+.DirectionsControl .next:hover {
+    background: url(../images/spriteAbv.html) no-repeat -130px -131px;
+}
+
+.DirectionsControl .prev {
+    position: absolute;
+    border: 0;
+    top: -61px;
+    left: 0px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    background: url(../images/spriteAbv.html) no-repeat -172px -131px;
+}
+
+.DirectionsControl .prev:hover {
+    background: url(../images/spriteAbv.html) no-repeat -214px -131px;
+}
+
+.DirectionsControl {
+    position: relative;
+    width: 465px;
+    height: 0px;
+}
+
+.controls {
+    position: relative;
+    top: -35px;
+    height: 9px;
+    left: 83px;
+}
+
+.controls a {
+    width: 9px;
+    cursor: pointer;
+    height: 9px;
+    background: #858585;
+    line-height: 0;
+    font-size: 0;
+    floaT: left;
+    margin-right: 9px;
+    outline: 0;
+    text-indent: -22000px;
+}
+
+.controls a.active,
+.controls a:hover {
+    background: #1e930c;
+}
+
+#ednaShow,
+#funShow {
+    position: relative;
+}
+
+.slideFrame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slideFrame .icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 61px;
+    right: 102px;
+    display: block;
+    outline: 0;
+}
+
+.slideFrame .icon.movie {
+    background: url(../images/spriteAbv.html) no-repeat -256px -131px;
+}
+
+.slideFrame .icon.game {
+    background: url(../images/spriteAbv.html) no-repeat -260px -186px;
+}
+
+.block {
+    min-height: 260px;
+}
+
+#pariteniContent {
+    overflow: hidden;
+}
+
+.bottomAdsTitle>p {
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+    color: #666;
+    font: 10px Arial;
+    float: right;
+    margin-bottom: 3px;
+}
+
+
+/* logo in footer */
+
+footer .footer_logos {
+    width: 960px;
+    margin: 16px auto 0;
+    padding: 10px 0 0;
+}
+
+footer .footer_logos .netinfoLogo {
+    float: right;
+    position: relative;
+    top: -47px;
+    height: 25px;
+    margin-bottom: -30px;
+    left: 10px;
+}
+
+/* logo in footer end */
+
+.slideShow a.movie {
+    display: none;
+}
+
+/* blocks formating fix */
+
+#blocks .block a span,
+#blocks .block a span[style],
+#blocks .block a strong,
+#blocks .block a em {
+    color: #2f2f2f !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
